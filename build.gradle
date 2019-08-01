@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+// ライブラリの取得先
+repositories {
+    mavenCentral()
+}
+
+// ライブラリの指定
+dependencies {
+    compile "joda-time:joda-time:2.2"
+}
